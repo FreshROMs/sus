@@ -4,14 +4,14 @@ title = "json api"
 
 [outputs]
   page = ["json","authors"]
-  home = ["json", "redirect"]
+  home = ["json"]
   domains = ["json"]
   section = ["json"]
   taxonomy = ["json", "authors"]
 
 [outputFormats.authors]
-baseName = "authors"
-mediatype ="application/json"
+  baseName = "authors"
+  mediatype ="application/json"
 
 [taxonomies]
   sport = "sports"
