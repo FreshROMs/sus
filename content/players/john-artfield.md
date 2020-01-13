@@ -6,7 +6,7 @@ emergency_contact: +1 (555) 555 5555
 sports: ["football", "baseball"]
 practices: ["Tuesday", "Thursday"]
 year: senior
-team: toasters
+domain: toasters
 ---
 
 John has been with the turtles since forever

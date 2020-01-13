@@ -5,7 +5,7 @@ age: 18
 emergency_contact: +1 (555) 555 5555
 practices: ["Tuesday", "Friday"]
 year: junior
-team: toasters
+domain: toasters
 ---
 
 Zoe has been with the turtles since forever

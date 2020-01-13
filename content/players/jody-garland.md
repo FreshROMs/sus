@@ -6,7 +6,7 @@ emergency_contact: +1 (555) 555 5555
 sports: ["soccer", "football"]
 practices: ["Tuesday", "Thursday"]
 year: freshman
-team: turtles
+domain: turtles
 ---
 
 Jody has been with the turtles since forever

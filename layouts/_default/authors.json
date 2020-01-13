@@ -1,10 +1,10 @@
 {{ define "response" }}
-{{- $players := where .Data.Pages "Type" "players" -}}
+{{- $authors := where .Data.Pages "Type" "authors" -}}
     {
         "group" : "{{.Type}}::{{ .Title }}",
-        "count" : "{{ len $players }}"
-        ,"players" : [
-        {{ range $index, $e := $players }}
+        "count" : "{{ len $authors }}"
+        ,"authors" : [
+        {{ range $index, $e := $authors }}
             {{ if $index }}, {{ end }}{{ .Render "item" }}
         {{ end }}
         ]

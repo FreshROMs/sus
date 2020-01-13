@@ -1,24 +1,18 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "rougon"
+title = "json api"
 
 [outputs]
-  page = ["json","players"]
+  page = ["json","authors"]
   home = ["json", "redirect"]
-  teams = ["json"]
+  domains = ["json"]
   section = ["json"]
-  taxonomy = ["json", "players"]
+  taxonomy = ["json", "authors"]
 
-[mediaTypes."text/netlify"]
-suffix = ""
-delimiter = ""
-
-[outputFormats.players]
-baseName = "players"
+[outputFormats.authors]
+baseName = "authors"
 mediatype ="application/json"
-[outputFormats.redirect]
-mediatype = "text/netlify"
-baseName = "_redirects"
+
 [taxonomies]
   sport = "sports"
   practice = "practices"

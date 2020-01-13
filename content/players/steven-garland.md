@@ -6,7 +6,7 @@ emergency_contact: +1 (555) 555 5555
 sports: ["soccer", "baseball"]
 practices: ["Tuesday", "Thursday"]
 year: sophomore
-team: turtles
+domain: turtles
 ---
 
 Steven has been with the turtles since forever
