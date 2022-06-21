@@ -8,6 +8,11 @@
 		    "romtype" : "{{ .Params.ReleaseType }}",
 		    "size" : {{ .Params.Size }},
 		    "url" : "{{ .Params.FileURL }}",
+		    "updatedapps" : [
+		    	{{ range .Params.UpdatedApps }}
+				    "{{ . }}",{{ end }}
+				    ""
+		    ],
 		    "changelog" : {{ .RawContent | jsonify }}
 		}
 {{ end }}
