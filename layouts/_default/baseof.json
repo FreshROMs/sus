@@ -1,9 +1,8 @@
 {
-	"response" : [
+	"response" :
 	{{ with .NextInSection }}
 	{{ block "response" . }}{{- end }}
 	{{ else }}
 	{{ block "response" . }}{{- end }}
 	{{ end }}
-	]
 }
