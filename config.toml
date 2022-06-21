@@ -1,21 +1,9 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "json api"
+title = "Over-the-Air Update API"
 
 [outputs]
-  page = ["json","authors"]
+  page = ["json"]
   home = ["json"]
   domains = ["json"]
   section = ["json"]
-  taxonomy = ["json", "authors"]
-
-[outputFormats.authors]
-  baseName = "authors"
-  mediatype ="application/json"
-
-[taxonomies]
-  sport = "sports"
-  practice = "practices"
-
-[permalinks]
-  page = "/:section/:title/"

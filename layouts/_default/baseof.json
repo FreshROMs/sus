@@ -1,3 +1,9 @@
 {
-	"data" : {{ block "response" .}}{{ end }}
+	"response" : [
+	{{ with .NextInSection }}
+	{{ block "response" . }}{{- end }}
+	{{ else }}
+	{{ block "response" . }}{{- end }}
+	{{ end }}
+	]
 }
