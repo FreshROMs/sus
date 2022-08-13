@@ -1,0 +1,18 @@
+{{ define "response" }}
+		{
+		    "datetime": {{ .Date.Unix }},
+		    "versionCode" : {{ .Title }},
+		    "versionName" : "{{ .Params.VersionName }}",
+		    {{ with .Params.SecurityPatchLevel }}"spl": "{{ dateFormat "2006-01-02" . }}",{{ end }}
+		    "hash": "{{ .Params.MD5 }}",
+		    "romtype" : "{{ .Params.ReleaseType }}",
+		    "size" : {{ .Params.Size }},
+		    "url" : "{{ .Params.FileURL }}",
+		    "updatedapps" : [
+		    	{{ range .Params.UpdatedApps }}
+				    "{{ . }}",{{ end }}
+				    ""
+		    ],
+		    "changelog" : {{ .RawContent | jsonify }}
+		}
+{{ end }}

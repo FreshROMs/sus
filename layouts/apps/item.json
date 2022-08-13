@@ -1,0 +1,11 @@
+		{
+		    "packageName": "{{ .Params.PackageName }}",
+		    "name" : "{{ .Title }}",
+		    "summary" : "{{ .Summary }}",
+		    "versionCode": {{ .Params.VersionCode }},
+		    "versionName" : "{{ .Params.VersionName }}",
+		    "icon" : "{{ .Params.IconURL }}",
+		    "size" : {{ .Params.Size }},
+		    "file" : "{{ .Params.FileURL }}",
+		    "changelog" : {{ .RawContent | jsonify }}
+		}
