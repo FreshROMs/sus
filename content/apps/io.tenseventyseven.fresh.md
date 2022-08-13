@@ -1,7 +1,7 @@
 ---
 Title: "Fresh System Services"
 PackageName: "io.tenseventyseven.fresh"
-Summary: "io.tenseventyseven.fresh"
+Summary: "The service that provides Zest and other exclusive features to your device running Fresh."
 VersionName: "4.1.4.2"
 VersionCode: 22081303
 Size: 16735768
