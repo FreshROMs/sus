@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="ota_version_name">4.0.57.04</string>
+    <string name="ota_file_url">https://github.com/FreshROMs/sus/releases/download/22081304/update.zip</string>
+    <long name="ota_file_size" value="39451069" />
+    <string name="ota_changelog">&#10;This release brings improvements to your device in terms of stability, performance, and security.&#10;&#10;**Kernel**&#10;&#10;-   Turn off MGLRU completely for One UI&#10;-   Make frequency boosting less aggressive to alleviate heating on certain devices and configurations.&#10;-   Introduce a frequency 'scaling' strategy based on the processor's efficient frequencies. This is currently under testing and future updates will improve upon this.&#10;-   Merge upstream changes from Google and Samsung.&#10;&#10;**System**&#10;&#10;-  Fix Secure Folder for users who have clean flashed 4.0.56.&#10;-  Update Photo Remaster libraries to fix Photo Remastering.&#10;-  Revert a pending change that accidentally made Slow Motion mode stop working.&#10;-  Add 'aspect ratio' settings to Zest&#10;&#10;A software update can include, but is not limited to:&#10;&#10;-   Device stability improvements, bug fixes.&#10;-   New and / or enhanced features.&#10;-   Further improvements of performance.&#10;&#10;To get the best from your device, please keep your device up to date and regularly check for software updates.&#10;    </string>
+    <string name="ota_spl">2022-06-01</string>
+    <string name="ota_updated_apps">[&quot;Fresh System Services&quot;]</string>
+    <long name="ota_version_code" value="22081304" />
+    <long name="ota_download_eta" value="-1" />
+    <int name="ota_download_id" value="1565755614" />
+    <string name="ota_file_hash">d4f4b9a4adf5418231340ee190f7bf04</string>
+    <int name="ota_install_state" value="9" />
+    <long name="ota_date_time" value="1660365531" />
+    <string name="ota_release_type">prestable</string>
+    <int name="ota_download_progress" value="100" />
+</map>
