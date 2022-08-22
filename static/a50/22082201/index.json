@@ -1,0 +1,34 @@
+{
+	"response" :
+	
+	
+		{
+		    "datetime": 1661151519,
+		    "versionCode" : 22082201,
+		    "versionName" : "4.0.59.01",
+		    "spl": "2022-06-01",
+		    "hash": "8f50d5eb1b9838e09c615cc904618fb9",
+		    "romtype" : "prestable",
+		    "size" : 282781508,
+		    "url" : "https://github.com/FreshROMs/sus/releases/download/22082201/update.zip",
+		    "updatedapps" : [
+		    	
+				    "io.tenseventyseven.fresh",
+				    "com.samsung.android.honeyboard",
+				    "com.sec.android.daemonapp",
+				    "com.samsung.android.forest",
+				    "com.samsung.android.app.dressroom",
+				    "com.samsung.android.app.contacts",
+				    "com.sec.android.gallery3d",
+				    "com.samsung.android.incallui",
+				    "com.samsung.android.messaging",
+				    "com.samsung.android.lool",
+				    "com.sec.android.app.soundalive",
+				    "com.samsung.android.dialer",
+				    ""
+		    ],
+		    "changelog" : "\nThis release brings improvements to your device in terms of stability, performance, and security.\n\n**Kernel**\n\n- Introduce a kinda-'hacky' strategy to separate the number of tasks to load-balance based on destination CPU's cluster\n- Battery life improvements for the 'energy' scheduler path\n- Revert MFC driver to Android 11 for stability\n- Reap memory of a task that receives SIGKILL\n\n**System**\n\n- **New!** Introduce a new memory management strategy that completely removes the whitelist for OEM apps, giving opportunity for more apps to stay in memory\n- **New!** Updated some applications to One UI 5\n- **New!** Make builds compatible with \"Google Messages for Samsung\", bringing One UI design to the Google Messages app. If the app is already installed, reinstall it again to get the new design\n- Update Fresh Performance Kit to 13.3.9.0 with improvements to 'Performance Mode' presets\n- Use a Google-certified build fingerprint to pass basic SafetyNet attestation.\n- Improve 'slow motion' camera mode\n- Revert a change that potentially made DeX wireless and DeX on PC non-functional on recent builds\n- Use a newer RIL daemon to potentially fix random issues with voice calls\n- Fix Software Updates' background services being stopped by the system during download\n\nA software update can include, but is not limited to:\n\n-  Device stability improvements, bug fixes.\n-  New and / or enhanced features.\n-  Further improvements of performance.\n\nUpdates disable several Magisk modules to ensure that your system updates properly. You will be notified after updating if some of your installed modules have been disabled.\n\nTo get the best from your device, please keep your device up to date and regularly check for software updates.\n"
+		}
+
+	
+}
