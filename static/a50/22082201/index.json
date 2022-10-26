@@ -4,13 +4,13 @@
 	
 		{
 		    "datetime": 1661151519,
-		    "versionCode" : 22082201,
-		    "versionName" : "4.0.59.01",
-		    "spl": "2022-06-01",
-		    "hash": "8f50d5eb1b9838e09c615cc904618fb9",
-		    "romtype" : "prestable",
-		    "size" : 282781508,
-		    "url" : "https://github.com/FreshROMs/sus/releases/download/22082201/update.zip",
+		    "versionCode" : 22102603,
+		    "versionName" : "4.1.1.03",
+		    "spl": "2022-07-01",
+		    "hash": "1ac9fa7258b6b36c361ac594d5ee6504",
+		    "romtype" : "candidate",
+		    "size" : 3372273451,
+		    "url" : "https://gitlab.com/TenSeventy7/FreshRepo/-/raw/main/FRSH-SP1A_a50_4.1.1.03C_22102603_OFFICIAL.zip",
 		    "updatedapps" : [
 		    	
 				    "io.tenseventyseven.fresh",
@@ -25,9 +25,13 @@
 				    "com.samsung.android.lool",
 				    "com.sec.android.app.soundalive",
 				    "com.samsung.android.dialer",
+				    "com.sec.android.app.launcher",
+				    "com.sec.android.app.camera",
+				    "com.sec.android.app.desktoplauncher",
+				    "com.samsung.android.calendar",
 				    ""
 		    ],
-		    "changelog" : "\nThis release brings improvements to your device in terms of stability, performance, and security.\n\n**Kernel**\n\n- Introduce a kinda-'hacky' strategy to separate the number of tasks to load-balance based on destination CPU's cluster\n- Battery life improvements for the 'energy' scheduler path\n- Revert MFC driver to Android 11 for stability\n- Reap memory of a task that receives SIGKILL\n\n**System**\n\n- **New!** Introduce a new memory management strategy that completely removes the whitelist for OEM apps, giving opportunity for more apps to stay in memory\n- **New!** Updated some applications to One UI 5\n- **New!** Make builds compatible with \"Google Messages for Samsung\", bringing One UI design to the Google Messages app. If the app is already installed, reinstall it again to get the new design\n- Update Fresh Performance Kit to 13.3.9.0 with improvements to 'Performance Mode' presets\n- Use a Google-certified build fingerprint to pass basic SafetyNet attestation.\n- Improve 'slow motion' camera mode\n- Revert a change that potentially made DeX wireless and DeX on PC non-functional on recent builds\n- Use a newer RIL daemon to potentially fix random issues with voice calls\n- Fix Software Updates' background services being stopped by the system during download\n\nA software update can include, but is not limited to:\n\n-  Device stability improvements, bug fixes.\n-  New and / or enhanced features.\n-  Further improvements of performance.\n\nUpdates disable several Magisk modules to ensure that your system updates properly. You will be notified after updating if some of your installed modules have been disabled.\n\nTo get the best from your device, please keep your device up to date and regularly check for software updates.\n"
+		    "changelog" : "\nThis release brings improvements to your device in terms of stability, performance, and security.\n\n**Kernel**\n\n- Minor memory management improvements and handle low-memory situations better\n- Ensure 'virtual touchpad' is freed when unloading driver\n- Introduce a kinda-'hacky' strategy to separate the number of tasks to load-balance based on destination CPU's cluster\n- Battery life improvements for the 'energy' scheduler path\n- Revert MFC driver to Android 11 for stability\n- Reap memory of a task that receives SIGKILL\n\n**System**\n\n- Rebased to Sep 2022 security patches for the Galaxy S20 Fan Edition and Galaxy A51.\n- **New!** TWRP 3.7.0 release.\n- Minor memory management and performance improvements.\n- Use a Google-certified build fingerprint to pass basic SafetyNet attestation.\n- Improve 'slow motion' camera mode\n- Revert a change that made DeX wireless and DeX on PC non-functional on recent builds\n- Use a newer RIL daemon to potentially fix random issues with voice calls\n- Fix Software Updates' background services being stopped by the system during download\n\n**Experience:**\n\n- **New!** Backport some features from One UI 5, including new icons for Samsung stock apps.\n- **New!** Make builds compatible with \"Google Messages for Samsung\", bringing One UI design to the Google Messages app. If the app is already installed, reinstall it again to get the new design.\n- Fix Secure Folder for first-time users.\n\nA software update can include, but is not limited to:\n\n-   Device stability improvements, bug fixes.\n-   New and / or enhanced features.\n-   Further improvements of performance.\n\nTo get the best from your device, please keep your device up to date and regularly check for software updates.\n"
 		}
 
 	
