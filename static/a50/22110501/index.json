@@ -1,0 +1,22 @@
+{
+	"response" :
+	
+	
+		{
+		    "datetime": 1667617301,
+		    "versionCode" : 22110501,
+		    "versionName" : "4.2.3.01",
+		    "spl": "2022-10-01",
+		    "hash": "3db175ebd3d72b9222987027a82e871f",
+		    "romtype" : "candidate",
+		    "size" : 16851026,
+		    "url" : "https://github.com/FreshROMs/sus/releases/download/22110501/update.zip",
+		    "updatedapps" : [
+		    	
+				    ""
+		    ],
+		    "changelog" : "\nThis release brings improvements to your device in terms of stability, performance, and security.\n\n- Memory management has been improved\n- Fix too frequent swapping in 'Gaming' mode\n\nA software update can include, but is not limited to:\n\n-   Device stability improvements, bug fixes.\n-   New and / or enhanced features.\n-   Further improvements of performance.\n\nTo get the best from your device, please keep your device up to date and regularly check for software updates.\n"
+		}
+
+	
+}
