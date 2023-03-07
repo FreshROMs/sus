@@ -1,0 +1,22 @@
+{
+	"response" :
+	
+	
+		{
+		    "datetime": 1678157099,
+		    "versionCode" : 23030701,
+		    "versionName" : "5.1.1.01",
+		    "spl": "2023-03-01",
+		    "hash": "86f052a132574eb693af15685f4aa01e",
+		    "romtype" : "beta",
+		    "size" : 3337487187,
+		    "url" : "https://gitlab.com/FreshROMs/sus/-/raw/main/FRSH-OTA-SP1A_a50_4.4.3.02R_22122302_OFFICIAL.zip",
+		    "updatedapps" : [
+		    	
+				    ""
+		    ],
+		    "changelog" : "\nInitial Fresh 5 beta build.\n"
+		}
+
+	
+}
