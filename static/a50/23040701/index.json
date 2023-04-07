@@ -1,0 +1,25 @@
+{
+	"response" :
+	
+	
+		{
+		    "datetime": 1680837968,
+		    "versionCode" : 23040701,
+		    "versionName" : "4.4.98.01",
+		    "spl": "2023-04-01",
+		    "hash": "e432495002e838d0bcb024dc5355f56f",
+		    "romtype" : "beta",
+		    "size" : 31793283,
+		    "url" : "https://github.com/FreshROMs/sus/releases/download/23040701/update.zip",
+		    "updatedapps" : [
+		    	
+				    "cf.tenseventyseven.fresh.framework",
+				    "com.sec.android.app.launcher",
+				    "com.samsung.android.app.appsedge",
+				    ""
+		    ],
+		    "changelog" : "\nThis release brings improvements to your device in terms of stability, performance, and security.\n\n- **New!** Add support for the new themed icons on the Apps Edge panel.\n- Improve color theming consistency for app icons that have proper metadata for theming.\n- Remove the 'dark' overlay from dark icons to achieve the same dark icons effect as newer versions of SEM.\n\nA software update can include, but is not limited to:\n\n-  Device stability improvements, bug fixes.\n-  New and / or enhanced features.\n-  Further improvements of performance.\n\nUpdates disable several Magisk modules to ensure that your system updates properly. You will be notified after updating if some of your installed modules have been disabled.\n\nTo get the best from your device, please keep your device up to date and regularly check for software updates.\n"
+		}
+
+	
+}
