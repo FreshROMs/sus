@@ -3,22 +3,27 @@
 	
 	
 		{
-		    "datetime": 1680837968,
-		    "versionCode" : 23040701,
-		    "versionName" : "4.4.98.01",
+		    "datetime": 1681023582,
+		    "versionCode" : 23040901,
+		    "versionName" : "4.5.0.01",
 		    "spl": "2023-04-01",
-		    "hash": "e432495002e838d0bcb024dc5355f56f",
-		    "romtype" : "beta",
-		    "size" : 31793283,
-		    "url" : "https://github.com/FreshROMs/sus/releases/download/23040701/update.zip",
+		    "hash": "d41ae355e39685421289f6a50d5da089",
+		    "romtype" : "release",
+		    "size" : 3329468728,
+		    "url" : "https://gitlab.com/FreshROMs/sus4p5/-/raw/main/FRSH-OTA-SP1A_a50_4.5.0.01R_23040901_OFFICIAL.zip",
 		    "updatedapps" : [
 		    	
 				    "cf.tenseventyseven.fresh.framework",
-				    "com.sec.android.app.launcher",
+				    "cf.tenseventyseven.fresh",
 				    "com.samsung.android.app.appsedge",
+				    "com.samsung.android.smartsuggestions",
+				    "com.sec.android.app.soundalive",
+				    "com.samsung.android.app.smartwidget",
+				    "com.samsung.android.app.smartcapture",
+				    "com.sec.android.app.launcher",
 				    ""
 		    ],
-		    "changelog" : "\nThis release brings improvements to your device in terms of stability, performance, and security.\n\n- **New!** Add support for the new themed icons on the Apps Edge panel.\n- Improve color theming consistency for app icons that have proper metadata for theming.\n- Remove the 'dark' overlay from dark icons to achieve the same dark icons effect as newer versions of SEM.\n\nA software update can include, but is not limited to:\n\n-  Device stability improvements, bug fixes.\n-  New and / or enhanced features.\n-  Further improvements of performance.\n\nUpdates disable several Magisk modules to ensure that your system updates properly. You will be notified after updating if some of your installed modules have been disabled.\n\nTo get the best from your device, please keep your device up to date and regularly check for software updates.\n"
+		    "changelog" : "\n**Fresh 4.5 Update (Android 12)**\n\nFresh 4.5 gives you more reasons to love your phone again. Version is just a number now. With the latest features on a rock-solid, stable, and well-maintained base, Fresh allows you to be confident on everything you do.\n\n### Core Improvements\n\n**An all-new scheduler designed for Galaxy**\n\nMint Kernel has been revamped to be much faster and more battery-friendly. With a completely new scheduler, Mint enables you to do much more than ever before, without having to buy a new device.\n\n### Extract and scan text  \n  \n**Extract text from any image or screen** \n\nExtract text using Samsung Keyboard, Internet, Gallery, or whenever you take a screenshot. Paste the result into a message, email, or document instead of typing.  \n  \n**Get suggestions based on text in images**  \n\nWhen text appears in an image in Gallery or other apps, actions will be recommended based on the text. For example, if you take a picture of a sign with a phone number or web address on it, you can tap to call the number or visit the site. \n\nText extraction and suggestion features are only supported for English, Korean, French, Italian, German, Spanish, Portuguese, and Chinese.\n\n### Gallery\n\n**More powerful search**\n\nYou can now search your Gallery for more than one person or subject at the same time. You can even search for people without tagging their names just by tapping their faces.\n\n**Revamped info display**\n\nWhen you swipe up while viewing a picture or video in your Gallery, you can see when and where the picture was taken, which device took the picture, where the picture is stored, and more. Now with a simpler layout.\n\n**Customize albums in Gallery**  \n\nChoose which albums appear by default and hide less frequently used albums to keep the clutter down. You can also merge albums that have the same name and create albums that automatically update to include pictures of people you select.\n\n**All-new look for Stories**  \n\nStories that are automatically created in your Gallery have been revamped with an interactive slideshow view. Just tap or swipe to move between pictures and videos in your story.\n\n### Weather\n\n**Quick access to useful information**\n\nCheck severe weather alerts, daily weather summaries, and sunrise/sunset times at the top of the Weather app. The temperature graph now uses colors to show how the temperature changes throughout the day.\n\n**Hourly precipitation graph**\n\nAn hourly graph now shows how much precipitation has fallen at different times of the day.\n\n**Summary on Weather widget**\n\nA brief summary of the current weather conditions now appears on the weather widget to let you know if it's sunny, cloudy, raining, or snowing.\n\n### New calling options\n  \n**Easily see who’s calling**\n\nSet a different call background for each contact so you easily see who's calling with just a quick glance.  \n  \n**Video calls with Google Meet** \n\nGoogle Duo has been merged with Google Meet. You can now join 1:1 video calls as well as group video conferences all in one place with Google Meet.\n\n### Express yourself with Samsung Keyboard\n  \n**Rearrange expression buttons**  \nTouch and hold the emoji, sticker, and other buttons to rearrange them.  \n  \n**Enter kaomoji directly from the keyboard**  \nSpice up your chats and texts with preset Japanese-style facial expressions created using keyboard symbols. (*^.^*)\n\n### Additional changes\n\n**Themed Icons**\n\nYour phone is more beautiful than ever with support for themed icons for more than 1.2k packages, plus dark mode support for stunning icons even on dark mode.\n\n  \n**Security**  \n\nThe device is protected with improved security.  \n\nSome apps will need to be updated separately after the upgrade.\n\nA software update can include, but is not limited to:\n\n-  Device stability improvements, bug fixes.\n-  New and / or enhanced features.\n-  Further improvements of performance.\n\nUpdates disable several Magisk modules to ensure that your system updates properly. You will be notified after updating if some of your installed modules have been disabled.\n\nTo get the best from your device, please keep your device up to date and regularly check for software updates.\n"
 		}
 
 	
