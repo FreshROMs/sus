@@ -1,8 +1,14 @@
 {
-	"response" :
-	{{ with .NextInSection }}
-	{{ block "response" . }}{{- end }}
-	{{ else }}
-	{{ block "response" . }}{{- end }}
-	{{ end }}
+    "response":
+    {{ with .NextInSection }}
+        {{ if .Params.Enabled }}
+            {{ block "response" . }}{{- end }}
+        {{ else }}
+    		{{ with .PrevInSection }}
+            	{{ block "response" . }}{{- end }}
+            {{ end }}
+        {{ end }}
+    {{ else }}
+        {{ block "response" . }}{{- end }}
+    {{ end }}
 }
