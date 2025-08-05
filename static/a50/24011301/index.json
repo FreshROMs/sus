@@ -1,0 +1,27 @@
+{
+    "response":
+    
+        
+    		
+            	
+		{
+		    "datetime": 1704959982,
+		    "versionCode" : 24011304,
+		    "versionName" : "4.5.2.04",
+		    "spl": "2023-04-01",
+		    "hash": "1920dbfc0c717942644a85ad811b0adb",
+		    "romtype" : "release",
+		    "size" : 58362457,
+		    "url" : "https://github.com/FreshROMs/sus/releases/download/24011302/24011304.zip",
+		    "updatedapps" : [
+		    	
+				    "cf.tenseventyseven.fresh.framework",
+				    ""
+		    ],
+		    "changelog" : "\nThis update enables upgrading from Fresh 4.5 to Fresh 6.\n\n**Security**  \n\nThe device is protected with improved security.  \n\nSome apps will need to be updated separately after the upgrade.\n\nA software update can include, but is not limited to:\n\n-  Device stability improvements, bug fixes.\n-  New and / or enhanced features.\n-  Further improvements of performance.\n\nUpdates disable several Magisk modules to ensure that your system updates properly. You will be notified after updating if some of your installed modules have been disabled.\n\nTo get the best from your device, please keep your device up to date and regularly check for software updates.\n"
+		}
+
+            
+        
+    
+}
